@@ -1,0 +1,18 @@
+# 통합 레포 공통 (litter/ 8단계 파이프라인 + shoresweep_planner/ + hotspot/ + path_planning/)
+numpy
+scipy
+opencv-python-headless
+pillow
+matplotlib
+rasterio
+shapely
+pyproj
+scikit-image
+scikit-learn
+openpyxl
+pytest
+
+# 선택: 탐지 학습/추론(litter.seg), 3D 복원(litter.orbit3d), SAM2 마스크(litter.objvol)
+# GPU 환경에서만 설치 — litter/README.md 참고
+# ultralytics
+# pycolmap

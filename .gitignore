@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.ecw
+*.ecw.aux.xml
+ros_sim/out/
+hotspot/data/
+
+# litter/ 파이프라인 산출물·대용량 데이터 (coastal 브랜치 규칙과 동일)
+runs/
+data/litter_*/
+data/private/
+data/aihub/
+data/seg_*/
+data/external/
+results/litter_*/
+/tools/
+*.pt
+*.ckpt
+
+# shoresweep_planner 산출물
+shoresweep_planner/outputs/
+
+# API 키 (절대 커밋 금지)
+.secrets/
+**/.secrets/
+ros_sim/out_hawaii*/
+ros_sim/hawaii/generated/

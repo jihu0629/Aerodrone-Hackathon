@@ -1,0 +1,23 @@
+# 가상환경 / 캐시
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+*.log
+
+# 대용량 영상·데이터 (GitHub 100MB 제한)
+*.tif
+*.tiff
+*.jp2
+S2_GYD/
+outputs/
+
+# 논문 PDF (저작권)
+**/선행조사/Paper/
+# 현장 자료 — input/.gitignore 참고
+input/labels.json
+input/crops/
+input/ortho/

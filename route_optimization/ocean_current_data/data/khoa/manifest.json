@@ -1,0 +1,9 @@
+{
+ "endpoint": "https://apis.data.go.kr/1192136/crntFcstTime/GetCrntFcstTimeApiService",
+ "dataset": "https://www.data.go.kr/data/15156024/openapi.do",
+ "license": "KOGL 제1유형 (출처표시: 해양수산부 국립해양조사원)",
+ "fetched_utc": "2026-10-01T22:14:23.184056+00:00",
+ "stations": {},
+ "n_requests": 295,
+ "note": "crsp 는 cm/s 로 해석해 m/s 로 변환. predcDt 는 KST."
+}

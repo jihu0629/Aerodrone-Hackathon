@@ -1,0 +1,12 @@
+{
+  "site": "예시 해변",
+  "crs": "EPSG:5186",
+  "labels": "labels.json",
+  "photos": "crops",
+  "ortho": "ortho/overview.jpg",
+  "depot": {"lon": 126.70000, "lat": 37.40000, "name": "출발지"},
+  "label_fields": {"material": ["material"], "area": ["area_m2"], "weight": ["weight_kg"], "lon": ["lon"], "lat": ["lat"]},
+  "material_map": {"STYROFOAM": "styrofoam", "ROPE": "rope", "NET": "net", "PLASTIC": "plastic"},
+  "shared": {"provider": "supabase", "url": "<https://YOUR-PROJECT.supabase.co>", "anon_key": "<publishable key>", "table": "shared_state"},
+  "_note": "이 파일을 config.json 으로 복사해 값을 바꾼다. config.json 은 git 에 올라가지 않는다. depot 좌표는 예시값."
+}
