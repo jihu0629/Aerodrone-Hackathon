@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+notebooks/.ipynb_checkpoints/
+
+# 데이터 (비공개 현장 데이터는 data/private/, 그 외 학습셋·합성 데이터는 재생성) — 저장소에 넣지 않는다
+data/
+results/
+
+# 외부 도구·체크포인트
+/tools/
+*.ckpt
