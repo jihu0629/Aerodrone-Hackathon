@@ -1,0 +1,5 @@
+# 현장 자료(라벨·사진·정사영상)와 현장 설정은 저장소에 넣지 않는다.
+labels.json
+crops/
+ortho/
+config.json
